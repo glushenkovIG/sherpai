@@ -1,0 +1,29 @@
+{
+  "name": "sherpai-landing",
+  "version": "1.0.0",
+  "description": "SherpaAI Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "deploy": "git push origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherpai/sherpai-landing.git"
+  },
+  "keywords": [
+    "sherpai",
+    "ai",
+    "social-engineering",
+    "landing-page"
+  ],
+  "author": "Ivan Glushenkov, Réane Delaunoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sherpai/sherpai-landing/issues"
+  },
+  "homepage": "https://sherpai.ai",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+} 
