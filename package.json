@@ -1,29 +1,44 @@
 {
-  "name": "sherpai-landing",
+  "name": "sherpai",
   "version": "1.0.0",
-  "description": "SherpaAI Landing Page",
+  "description": "SherpaAI - Social Sovereignty Agent",
   "main": "index.html",
   "scripts": {
     "start": "npx serve",
-    "deploy": "git push origin main"
+    "deploy": "git push origin main",
+    "docs": "npx serve -l 3001 docs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sherpai/sherpai-landing.git"
+    "url": "git+https://github.com/sherpai/sherpai.git"
   },
   "keywords": [
     "sherpai",
     "ai",
     "social-engineering",
-    "landing-page"
+    "social-sovereignty",
+    "relationship-analytics",
+    "data-sovereignty",
+    "privacy",
+    "digital-wellbeing"
   ],
   "author": "Ivan Glushenkov, Réane Delaunoy",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sherpai/sherpai-landing/issues"
+    "url": "https://github.com/sherpai/sherpai/issues"
   },
   "homepage": "https://sherpai.ai",
   "devDependencies": {
     "serve": "^14.2.1"
+  },
+  "documentation": {
+    "main": "README.md",
+    "business": "docs/BUSINESS_MODEL_CANVAS.md",
+    "community": "docs/COMMUNITY_STRUCTURE.md",
+    "patterns": "docs/SOCIAL_ENGINEERING_PATTERNS.md",
+    "analytics": "docs/RELATIONSHIP_ANALYTICS.md",
+    "setup": "docs/SETUP_INSTRUCTIONS.md",
+    "utilities": "docs/CORE_UTILITIES.md",
+    "contributing": "docs/CONTRIBUTING.md"
   }
 } 
