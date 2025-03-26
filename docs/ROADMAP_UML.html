@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SherpaAI Roadmap - UML Style</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 40px;
+    }
+    .uml-diagram {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      overflow-x: auto;
+      padding: 20px 0;
+    }
+    .phase-box {
+      width: 220px;
+      border: 2px solid #34495e;
+      border-radius: 4px;
+      margin: 0 10px;
+      transition: transform 0.3s;
+    }
+    .phase-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .phase-title {
+      background-color: #34495e;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      font-weight: bold;
+      border-bottom: 1px solid #2c3e50;
+    }
+    .phase-content {
+      padding: 15px;
+      background-color: white;
+    }
+    .phase-items {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .phase-items li {
+      border-bottom: 1px solid #ecf0f1;
+      padding: 8px 0;
+    }
+    .phase-items li:last-child {
+      border-bottom: none;
+    }
+    .arrow {
+      width: 50px;
+      height: 2px;
+      background-color: #7f8c8d;
+      position: relative;
+      align-self: center;
+      flex-shrink: 0;
+    }
+    .arrow:after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: -4px;
+      width: 0;
+      height: 0;
+      border-top: 5px solid transparent;
+      border-bottom: 5px solid transparent;
+      border-left: 10px solid #7f8c8d;
+    }
+    .p1 { border-color: #3498db; }
+    .p1 .phase-title { background-color: #3498db; }
+    .p2 { border-color: #2ecc71; }
+    .p2 .phase-title { background-color: #2ecc71; }
+    .p3 { border-color: #9b59b6; }
+    .p3 .phase-title { background-color: #9b59b6; }
+    .p4 { border-color: #e74c3c; }
+    .p4 .phase-title { background-color: #e74c3c; }
+    
+    /* Responsive adjustments */
+    @media (max-width: 900px) {
+      .uml-diagram {
+        flex-direction: column;
+      }
+      .phase-box {
+        width: 100%;
+        max-width: 400px;
+        margin: 10px 0;
+      }
+      .arrow {
+        width: 2px;
+        height: 30px;
+        margin: 5px 0;
+      }
+      .arrow:after {
+        right: -4px;
+        top: auto;
+        bottom: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 10px solid #7f8c8d;
+        border-bottom: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>SherpaAI Development Roadmap</h1>
+    
+    <div class="uml-diagram">
+      <div class="phase-box p1">
+        <div class="phase-title">Phase 1: Foundation</div>
+        <div class="phase-content">
+          <ul class="phase-items">
+            <li>Integration with Telegram via secure proxy</li>
+            <li>Basic relationship analytics</li>
+            <li>Initial anti-social engineering detection</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="arrow"></div>
+      
+      <div class="phase-box p2">
+        <div class="phase-title">Phase 2: Expansion</div>
+        <div class="phase-content">
+          <ul class="phase-items">
+            <li>Cross-platform support (WhatsApp, Discord, etc.)</li>
+            <li>Advanced tribal mapping and visualization</li>
+            <li>Smart recommendations for relationship maintenance</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="arrow"></div>
+      
+      <div class="phase-box p3">
+        <div class="phase-title">Phase 3: Intelligence</div>
+        <div class="phase-content">
+          <ul class="phase-items">
+            <li>Predictive social engineering protection</li>
+            <li>Actionable insights for social growth</li>
+            <li>Community-based security improvements</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="arrow"></div>
+      
+      <div class="phase-box p4">
+        <div class="phase-title">Phase 4: Ecosystem</div>
+        <div class="phase-content">
+          <ul class="phase-items">
+            <li>Developer API platform</li>
+            <li>Research partnerships</li>
+            <li>Open pattern libraries</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html> 
