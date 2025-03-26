@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Shield outline -->
+  <path d="M250 60 L360 120 L360 240 Q360 300 310 350 Q270 390 250 410 Q230 390 190 350 Q140 300 140 240 L140 120 Z" 
+        fill="none" stroke="#e84a93" stroke-width="15" stroke-linejoin="round" />
+  
+  <!-- Inner mountain shape -->
+  <path d="M250 330 L190 260 L230 220 L250 240 L270 220 L310 260 Z" 
+        fill="#9c2169" stroke="none" />
+  
+  <!-- Orbiting elements/rings -->
+  <ellipse cx="250" cy="220" rx="120" ry="120" 
+           fill="none" stroke="#e84a93" stroke-width="12" stroke-opacity="0.8" 
+           transform="rotate(30, 250, 220)" />
+  
+  <ellipse cx="250" cy="220" rx="140" ry="90" 
+           fill="none" stroke="#e84a93" stroke-width="12" stroke-opacity="0.6" 
+           transform="rotate(-20, 250, 220)" />
+  
+  <!-- Small orbiting dots -->
+  <circle cx="170" cy="220" r="8" fill="#e84a93" />
+  <circle cx="340" cy="250" r="8" fill="#e84a93" />
+  
+  <!-- Text -->
+  <text x="250" y="470" font-family="Arial, sans-serif" font-size="50" font-weight="bold" 
+        text-anchor="middle" fill="#9c2169">sherpai.xyz</text>
+</svg> 

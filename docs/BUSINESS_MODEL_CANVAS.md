@@ -1,7 +1,7 @@
 # SherpaAI Business Model Canvas
 
 <p align="center">
-  <img src="https://via.placeholder.com/200x200?text=SherpaAI" alt="SherpaAI Logo" width="200" height="200">
+  <img src="images/logo.svg" alt="SherpaAI Logo" width="200" height="200">
 </p>
 
 <p align="center">
@@ -26,6 +26,16 @@ This document provides a detailed decomposition of SherpaAI's business model, hi
 | **Social Capital Optimization** | Tools to identify, measure, and improve social connections and network value |
 | **Data Sovereignty & Privacy** | Full ownership and control of personal social data with local processing and secure storage |
 | **Digital Wellbeing** | Reduction of anxiety, manipulation, and social pressure through informed interaction |
+
+### For Enterprises
+
+| Value Proposition | Description |
+|:------------------|:------------|
+| **Employee Security Training** | Customized learning based on actual social engineering attempts encountered by staff |
+| **Organizational Network Analysis** | Insights into communication patterns, team dynamics, and information flow |
+| **Fraud & Insider Threat Prevention** | Early detection of suspicious communication patterns indicating potential risks |
+| **Privacy Compliance** | Tools for managing communication data in compliance with regulations like GDPR and CCPA |
+| **Productivity Enhancement** | Improved team communication and relationship health metrics |
 
 ### For Platform Providers
 
@@ -63,6 +73,15 @@ This document provides a detailed decomposition of SherpaAI's business model, hi
 | **Vulnerable Populations** | Groups frequently targeted by social engineering | • Elderly users<br>• Young adults<br>• Public figures<br>• High-net-worth individuals |
 | **Digital Wellness Seekers** | Users looking to improve digital wellbeing | • Health-conscious<br>• Mindfulness-oriented<br>• Focus on life balance<br>• Subscription-friendly |
 
+### Enterprise Market
+
+| Segment | Description | Key Characteristics |
+|:--------|:------------|:--------------------|
+| **Financial Services** | Banks, investment firms, insurance companies | • High security needs<br>• Regulatory requirements<br>• Large budgets<br>• Integration priorities |
+| **Healthcare Organizations** | Hospitals, clinics, health networks | • Sensitive data concerns<br>• Patient privacy mandates<br>• Vendor qualification process<br>• Compliance focus |
+| **Government & Defense** | Public agencies and defense contractors | • Strict security protocols<br>• Complex procurement<br>• Long sales cycles<br>• Mission-critical needs |
+| **Technology Companies** | Software firms and tech enterprises | • Early adoption mindset<br>• Employee-focused benefits<br>• Integration capabilities<br>• Innovation culture |
+
 ### Platform Market
 
 | Segment | Description | Key Characteristics |
@@ -78,6 +97,7 @@ This document provides a detailed decomposition of SherpaAI's business model, hi
 |:--------|:------------|:--------------------|
 | **Security Developers** | Builders of security and privacy tools | • Technical expertise<br>• Integration focus<br>• Complementary offerings<br>• Specialized knowledge |
 | **Social App Developers** | Creators of social and communication apps | • User experience priority<br>• Growth-oriented<br>• Feature competition<br>• Consumer focus |
+| **Enterprise Solution Providers** | Developers serving business clients | • Compliance knowledge<br>• Industry expertise<br>• Solution selling<br>• Integration capabilities |
 | **Research Organizations** | Academic and commercial research entities | • Pattern analysis<br>• Dataset requirements<br>• Publication goals<br>• Grant funding models |
 
 </details>
@@ -92,8 +112,9 @@ This document provides a detailed decomposition of SherpaAI's business model, hi
 | Model | Description | Pricing Structure | Target Segment |
 |:------|:------------|:------------------|:---------------|
 | **Freemium Subscriptions** | Basic features free, premium features paid | $7.99/month personal<br>$14.99/month professional | Individual users |
+| **Enterprise Licensing** | Per-seat model with volume discounts | $25-45/user/month<br>Annual contracts | Businesses & organizations |
 | **API Usage Fees** | Pay-per-use model for developers | $0.001-0.005 per analysis<br>Volume tiers | Developers & platforms |
-| **Implementation Services** | Custom integration and setup | $10,000-50,000 per project<br>Scoped engagements | Platform providers |
+| **Implementation Services** | Custom integration and setup | $10,000-50,000 per project<br>Scoped engagements | Enterprise clients |
 
 ### Indirect Revenue Models
 
@@ -102,14 +123,16 @@ This document provides a detailed decomposition of SherpaAI's business model, hi
 | **Anonymized Insights** | Aggregated trend reporting | Quarterly reports<br>Pattern libraries | Research & security firms |
 | **Partner Ecosystem** | Revenue sharing with solution providers | 15-30% commission on<br>referred business | Security partners |
 | **Educational Resources** | Training and certification | $299-999 per course<br>Certification programs | Security professionals |
+| **Managed Security Services** | Outsourced monitoring and response | Custom pricing based<br>on scope and scale | SMBs & enterprises |
 
 ### Revenue Distribution Forecast
 
 | Revenue Stream | Year 1 | Year 2 | Year 3 | Year 5 |
 |:---------------|:-------|:-------|:-------|:-------|
-| Consumer Subscriptions | 50% | 45% | 40% | 35% |
-| Platform & API Integration | 30% | 35% | 40% | 45% |
-| Services & Indirect Revenue | 20% | 20% | 20% | 20% |
+| Consumer Subscriptions | 35% | 30% | 25% | 20% |
+| Enterprise Licensing | 40% | 45% | 45% | 40% |
+| API & Developer Ecosystem | 10% | 15% | 20% | 25% |
+| Services & Indirect Revenue | 15% | 10% | 10% | 15% |
 
 </details>
 
@@ -168,7 +191,7 @@ This document provides a detailed decomposition of SherpaAI's business model, hi
 ### Market Activities
 
 - **User Education**: Teaching about social engineering risks and protection
-- **Platform Sales**: Building relationships with platform customers
+- **Enterprise Sales**: Building relationships with organizational customers
 - **Developer Relations**: Growing and supporting the API ecosystem
 - **Community Building**: Fostering knowledge sharing and best practices
 - **Strategic Partnerships**: Aligning with complementary security solutions
@@ -203,12 +226,13 @@ This document provides a detailed decomposition of SherpaAI's business model, hi
 | **Communication Platforms** | Integration access for Secure analysis capabilities | Messaging apps, Social networks |
 | **Security Companies** | Complementary protection Combined solutions | Endpoint security, Network protection |
 | **Privacy Advocates** | Credibility and validation Market reach | EFF, Privacy-focused organizations |
-| **Platform Providers** | Distribution channel Technical integration | AWS, Azure, GCP |
+| **Enterprise IT Providers** | Distribution channel Technical integration | Microsoft, Google, Enterprise vendors |
 
 ### Technical Partnerships
 
 | Partner Type | Value Exchange | Examples |
 |:-------------|:--------------|:---------|
+| **Cloud Infrastructure** | Secure, compliant hosting Global distribution | AWS, Azure, GCP |
 | **Identity Providers** | Authentication integration User verification | Okta, Auth0, OneLogin |
 | **API Management** | Developer ecosystem tools Rate limiting, monitoring | Apigee, Kong, MuleSoft |
 | **Analytics Platforms** | Insights generation Pattern visualization | Tableau, Looker, PowerBI |
