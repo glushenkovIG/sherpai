@@ -30,6 +30,10 @@ bower_components/
 dist/
 build/
 out/
+.next/
+.nuxt/
+.cache/
+public/dist/
 
 # Debug logs
 npm-debug.log*
@@ -85,7 +89,7 @@ lib-cov
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
-.cache
+.parcel-cache
 
 # IDE files
 .idea/
@@ -95,4 +99,26 @@ lib-cov
 
 # OS files
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Operating System Files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Testing
+.nyc_output/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Local Netlify folder
+.netlify
+
+# Ignore reference repository
+reference-repo/ 
